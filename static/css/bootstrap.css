@@ -6688,6 +6688,8 @@ nav {
   font-size: 14px;
   font-weight: 500;
   margin-left: 15px; }
+  #register-btn:hover, #register-btn:focus, #register-btn:active {
+    background-color: #e79c91 !important; }
 
 #login-btn {
   color: #eaa79e !important; }
@@ -6702,6 +6704,8 @@ nav {
     background-color: #e8e9ed !important;
     width: 1px;
     height: 20px; }
+  .nav-link:active, .nav-link:hover, .nav-link:focus {
+    background-color: #f7f7f7; }
 
 .avatar-img {
   width: 40px;

@@ -57,6 +57,9 @@ nav  {
   font-size: 14px;
   font-weight: 500;
   margin-left: 15px;
+  &:hover, &:focus, &:active {
+    background-color: darken(#EAA79E, 3) !important;
+  }
 }
 
 #login-btn {
@@ -73,6 +76,9 @@ nav  {
     background-color: #e8e9ed !important;
     width: 1px;
     height: 20px;
+  }
+  &:active, &:hover, &:focus {
+    background-color: darken(#fff, 3);
   }
 }
 
