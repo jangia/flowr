@@ -5489,7 +5489,7 @@ h1 {
   margin: auto;
   width: 280px;
   height: 350px;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("../img/pl-image.jpg"); }
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("../img/rectangle.png"); }
 
 .card-img {
   background: black !important; }
