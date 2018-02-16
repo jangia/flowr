@@ -6551,6 +6551,225 @@ h1 {
   .main-input input {
     height: 56px !important;
     width: 310px !important; } }
+.cover-image {
+  width: 100%;
+  height: 350px;
+  background-image: url("../img/details/pl-hero.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column; }
+  .cover-image .flower-image {
+    position: absolute;
+    width: 280px;
+    height: 350px;
+    object-fit: contain;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 3px; }
+  .cover-image .flower-details {
+    flex: 1;
+    padding-left: 50px;
+    width: calc(100% - 300px);
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative; }
+    .cover-image .flower-details .sighting-button {
+      align-self: flex-end;
+      height: 50px;
+      width: 188px;
+      margin-top: auto;
+      margin-right: 120px;
+      border-radius: 3px;
+      margin-bottom: 50px;
+      background-image: linear-gradient(to left, #ecbcb3, #eaa79e);
+      box-shadow: 0 15px 20px 0 rgba(234, 168, 159, 0.2);
+      color: #FFF;
+      font-size: 14px; }
+    .cover-image .flower-details .flower-title-container {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      height: 100%;
+      padding-bottom: 50px; }
+      .cover-image .flower-details .flower-title-container .latin-name {
+        width: 160px;
+        height: 14px;
+        opacity: 0.7;
+        font-size: 14px;
+        font-weight: 100;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff; }
+      .cover-image .flower-details .flower-title-container .flower-title {
+        font-size: 35px;
+        font-weight: 100;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        margin-bottom: 10px; }
+      .cover-image .flower-details .flower-title-container .sightings-container {
+        display: flex;
+        margin-bottom: 20px; }
+        .cover-image .flower-details .flower-title-container .sightings-container .add-sighting {
+          display: inline-block;
+          border-radius: 50%;
+          width: 30px;
+          height: 30px;
+          background-color: #ffffff;
+          box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.1); }
+        .cover-image .flower-details .flower-title-container .sightings-container .sightings-count {
+          height: 30px;
+          width: 103px;
+          font-size: 12px;
+          font-weight: 300;
+          margin-left: 10px;
+          display: inline-block;
+          padding: 6px 15px;
+          border-radius: 20px;
+          background-color: rgba(0, 0, 0, 0.2);
+          color: #fff; }
+
+.flower-info {
+  margin-top: 50px; }
+  .flower-info .info-item {
+    display: block;
+    font-family: Ubuntu;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.92;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #949ea0; }
+
+.flower-description {
+  font-family: Ubuntu;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #949ea0; }
+
+.card {
+  margin: auto;
+  border: none;
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05); }
+  .card .card-image {
+    width: 280px;
+    height: 280px;
+    border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    -webkit-border-radius: 3px 3px 0 0; }
+  .card .card-block {
+    padding: 20px; }
+    .card .card-block .card-user-posted {
+      display: flex;
+      vertical-align: middle;
+      align-items: center;
+      padding-bottom: 20px; }
+      .card .card-block .card-user-posted .card-flower-title {
+        padding-left: 15px;
+        display: inline-block; }
+        .card .card-block .card-user-posted .card-flower-title .flower-name {
+          display: block;
+          font-size: 15px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1;
+          letter-spacing: normal;
+          text-align: left;
+          color: #334144; }
+        .card .card-block .card-user-posted .card-flower-title .author {
+          padding-top: 5px;
+          display: block;
+          font-size: 12px;
+          font-weight: normal;
+          font-style: italic;
+          font-stretch: normal;
+          line-height: 1;
+          letter-spacing: normal;
+          text-align: left;
+          color: #949ea0; }
+    .card .card-block .card-text-flower {
+      font-size: 13px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.15;
+      letter-spacing: normal;
+      text-align: justify;
+      color: #949ea0; }
+    .card .card-block .social-actions {
+      display: flex;
+      vertical-align: middle;
+      align-items: center; }
+      .card .card-block .social-actions .comments {
+        flex: 1;
+        display: flex;
+        vertical-align: middle;
+        align-items: center; }
+        .card .card-block .social-actions .comments .social-text {
+          font-size: 12px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1;
+          letter-spacing: normal;
+          text-align: justify;
+          color: #949ea0;
+          padding-left: 10px; }
+        .card .card-block .social-actions .comments .social-icon {
+          color: #949ea0;
+          width: 16px;
+          height: 15px; }
+          .card .card-block .social-actions .comments .social-icon:active, .card .card-block .social-actions .comments .social-icon:focus, .card .card-block .social-actions .comments .social-icon:hover {
+            color: #717d7f;
+            cursor: pointer; }
+  .card .location-badge {
+    position: absolute;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    width: 136px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+    margin-left: 20px; }
+    .card .location-badge:hover {
+      cursor: pointer; }
+    .card .location-badge .pl-icon-location {
+      width: 10px;
+      height: 13px;
+      object-fit: contain;
+      margin-left: 10px; }
+    .card .location-badge .location {
+      padding-left: 10px;
+      font-size: 12px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1;
+      letter-spacing: normal;
+      text-align: left;
+      color: #df9186; }
+
 .flower-card-wrapper {
   margin-bottom: 20px; }
 
@@ -6562,6 +6781,22 @@ h1 {
 
 .card-img {
   background: black !important; }
+
+.star-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #fff;
+  line-height: 30px;
+  margin: 20px;
+  cursor: pointer; }
+  .star-btn:active, .star-btn:hover, .star-btn:focus {
+    background-color: #eaa79e; }
+    .star-btn:active i, .star-btn:hover i, .star-btn:focus i {
+      color: #fff; }
+  .star-btn i {
+    color: #D2D7D8; }
 
 .flower-card-content {
   display: flex !important;
@@ -6575,21 +6810,6 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: flex-end; }
-  .flower-card-content .star-btn {
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    text-align: center;
-    background-color: #fff;
-    line-height: 30px;
-    margin: 20px;
-    cursor: pointer; }
-    .flower-card-content .star-btn:active, .flower-card-content .star-btn:hover, .flower-card-content .star-btn:focus {
-      background-color: #eaa79e; }
-      .flower-card-content .star-btn:active i, .flower-card-content .star-btn:hover i, .flower-card-content .star-btn:focus i {
-        color: #fff; }
-    .flower-card-content .star-btn i {
-      color: #D2D7D8; }
   .flower-card-content .flower-card-title {
     margin-top: 176px; }
     .flower-card-content .flower-card-title h5 {
@@ -6625,6 +6845,22 @@ h1 {
     border-radius: 2.4px;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("../img/pl-image.jpg"); }
 
+  .star-btn {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #fff;
+    line-height: 24px;
+    margin: 20px;
+    cursor: pointer; }
+    .star-btn:active, .star-btn:hover, .star-btn:focus {
+      background-color: #eaa79e; }
+      .star-btn:active i, .star-btn:hover i, .star-btn:focus i {
+        color: #fff; }
+    .star-btn i {
+      color: #D2D7D8; }
+
   .flower-card-content {
     display: flex !important;
     flex-direction: column !important;
@@ -6637,21 +6873,6 @@ h1 {
       display: flex;
       flex-direction: row;
       justify-content: flex-end; }
-    .flower-card-content .star-btn {
-      width: 24px;
-      height: 24px;
-      border-radius: 12px;
-      text-align: center;
-      background-color: #fff;
-      line-height: 24px;
-      margin: 20px;
-      cursor: pointer; }
-      .flower-card-content .star-btn:active, .flower-card-content .star-btn:hover, .flower-card-content .star-btn:focus {
-        background-color: #eaa79e; }
-        .flower-card-content .star-btn:active i, .flower-card-content .star-btn:hover i, .flower-card-content .star-btn:focus i {
-          color: #fff; }
-      .flower-card-content .star-btn i {
-        color: #D2D7D8; }
     .flower-card-content .flower-card-title {
       margin-top: 106px; }
       .flower-card-content .flower-card-title h5 {
@@ -6678,14 +6899,14 @@ h1 {
       line-height: 1; }
       .flower-card-content .sightings-btn:focus, .flower-card-content .sightings-btn:active, .flower-card-content .sightings-btn:hover {
         background-color: #EAA79E !important; } }
-.register-btn {
-  background-color: #eaa79e !important;
+#register-btn {
+  background-color: #eaa79e;
   border-radius: 50px !important;
   color: #fff;
   font-size: 14px;
   font-weight: 500;
   margin-left: 15px; }
-  .register-btn:hover, .register-btn:focus, .register-btn:active {
+  #register-btn:hover, #register-btn:focus, #register-btn:active {
     background-color: #e79c91 !important; }
 
 #login-btn {

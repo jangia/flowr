@@ -17,6 +17,27 @@
   background: black !important;
 }
 
+.star-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #fff;
+  line-height: 30px;
+  margin: 20px;
+  &:active, &:hover, &:focus {
+    background-color: #eaa79e;
+    i {
+      color: #fff;
+    }
+  }
+  i {
+    color: #D2D7D8;
+  }
+  cursor: pointer;
+  //background-image: url("../img/star-blush.svg");
+}
+
 .flower-card-content {
   display: flex !important;
   flex-direction: column !important;
@@ -32,27 +53,6 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-  }
-
-  .star-btn {
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    text-align: center;
-    background-color: #fff;
-    line-height: 30px;
-    margin: 20px;
-    &:active, &:hover, &:focus {
-      background-color: #eaa79e;
-      i {
-        color: #fff;
-      }
-    }
-    i {
-      color: #D2D7D8;
-    }
-    cursor: pointer;
-    //background-image: url("../img/star-blush.svg");
   }
 
   .flower-card-title {
@@ -100,6 +100,27 @@
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url('../img/pl-image.jpg');
   }
 
+  .star-btn {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #fff;
+    line-height: 24px;
+    margin: 20px;
+    &:active, &:hover, &:focus {
+      background-color: #eaa79e;
+      i {
+        color: #fff;
+      }
+    }
+    i {
+      color: #D2D7D8;
+    }
+    cursor: pointer;
+    //background-image: url("../img/star-blush.svg");
+  }
+
   .flower-card-content {
     display: flex !important;
     flex-direction: column !important;
@@ -117,26 +138,6 @@
       justify-content: flex-end;
     }
 
-    .star-btn {
-      width: 24px;
-      height: 24px;
-      border-radius: 12px;
-      text-align: center;
-      background-color: #fff;
-      line-height: 24px;
-      margin: 20px;
-      &:active, &:hover, &:focus {
-        background-color: #eaa79e;
-        i {
-          color: #fff;
-        }
-      }
-      i {
-        color: #D2D7D8;
-      }
-      cursor: pointer;
-      //background-image: url("../img/star-blush.svg");
-    }
 
     .flower-card-title {
       margin-top: 106px;
