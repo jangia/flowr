@@ -46,9 +46,9 @@
 @import "flower_list";
 @import "flower_card";
 
-nav  {
-  height: 80px;
-}
+//nav  {
+//  height: 80px;
+//}
 
 #register-btn {
   background-color: #eaa79e;
@@ -91,4 +91,15 @@ nav  {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
+}
+
+#menu-toggler {
+  color: #949ea0 !important;
+  background-color: #fff;
+  border: none !important;
+  &:hover, &:focus, &:active {
+    background-color: #f8f9fa !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
 }
