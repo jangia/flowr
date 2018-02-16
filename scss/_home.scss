@@ -25,16 +25,40 @@
   color: #fff;
   margin-bottom: 45px;
 }
-.main-form {
+.main-input {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  .input-group {
+  }
+  button {
+    background-color: #fff;
+    border: none !important;
+    &:hover, &:focus, &:active {
+      background-color: #f8f9fa !important;
+      border: none !important;
+      box-shadow: none !important;
+    }
+  }
+  input {
+    height: 60px !important;
+    width: 600px !important;
+    border: none !important;
+    &:focus, &:hover, &:active {
+      //color: #495057;
+      border: none !important;
+      outline: none !important;
+      box-shadow: none !important;
+
+    }
+    &::placeholder {
+      color: #949ea0;
+      font-size: 18px;
+      font-weight: 300;
+    }
+  }
 }
 
-.main-form input {
-  height: 60px !important;
-  width: 600px;
-}
 
 h1 {
   color: #fff;
