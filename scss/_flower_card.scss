@@ -1,0 +1,88 @@
+.flower-card-wrapper {
+  padding: 10px;
+}
+
+.flower-card {
+  width: 280px;
+  height: 350px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url('../img/pl-image.jpg');
+}
+
+
+.card-img {
+  background: black !important;
+}
+
+.flower-card-content {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+
+  .flower-card-title, .flower-card-subtitle, .flower-card-sightings {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .flower-card-star {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .star-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #fff;
+    line-height: 30px;
+    margin: 20px;
+    &:active, &:hover, &:focus {
+      background-color: #eaa79e;
+      i {
+        color: #fff;
+      }
+    }
+    i {
+      color: #D2D7D8;
+    }
+    cursor: pointer;
+    //background-image: url("../img/star-blush.svg");
+  }
+
+  .flower-card-title {
+    margin-top: 176px;
+    h5 {
+      font-size: 20px;
+      line-height: 0.75;
+    }
+  }
+  .flower-card-subtitle {
+    opacity: 0.7;
+    font-size: 12px;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+  }
+
+  .flower-card-sightings {
+    margin-top: 20px;
+  }
+
+  .sightings-btn {
+    width: 103px !important;
+    height: 30px!important;
+    border-radius: 20px!important;
+    background-color: rgba(0, 0, 0, 0.5)!important;
+    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.05)!important;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1;
+    &:focus, &:active, &:hover {
+      background-color: #EAA79E!important;
+    }
+  }
+}

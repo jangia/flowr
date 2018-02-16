@@ -43,6 +43,7 @@
 @import "home";
 @import "flower_details";
 @import "flower_list";
+@import "flower_card";
 
 nav  {
   height: 80px;
@@ -73,3 +74,8 @@ nav  {
     padding-top: 8px;
     padding-bottom: 7px;
 }
+
+//.container {
+//  margin-left: 5vw !important;
+//  margin-right: 5vw !important;
+//}

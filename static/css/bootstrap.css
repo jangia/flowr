@@ -6497,7 +6497,8 @@ a.text-dark:hover, a.text-dark:focus {
   background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; }
+  justify-content: flex-start;
+  margin-bottom: 90px; }
 
 .main-title {
   display: flex;
@@ -6533,7 +6534,8 @@ a.text-dark:hover, a.text-dark:focus {
     .main-input input:focus, .main-input input:hover, .main-input input:active {
       border: none !important;
       outline: none !important;
-      box-shadow: none !important; }
+      box-shadow: none !important;
+      background-color: #f8f9fa !important; }
     .main-input input::placeholder {
       color: #949ea0;
       font-size: 18px;
@@ -6542,6 +6544,71 @@ a.text-dark:hover, a.text-dark:focus {
 h1 {
   color: #fff;
   font-weight: 300; }
+
+.flower-card-wrapper {
+  padding: 10px; }
+
+.flower-card {
+  width: 280px;
+  height: 350px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("../img/pl-image.jpg"); }
+
+.card-img {
+  background: black !important; }
+
+.flower-card-content {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important; }
+  .flower-card-content .flower-card-title, .flower-card-content .flower-card-subtitle, .flower-card-content .flower-card-sightings {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .flower-card-content .flower-card-star {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+  .flower-card-content .star-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #fff;
+    line-height: 30px;
+    margin: 20px;
+    cursor: pointer; }
+    .flower-card-content .star-btn:active, .flower-card-content .star-btn:hover, .flower-card-content .star-btn:focus {
+      background-color: #eaa79e; }
+      .flower-card-content .star-btn:active i, .flower-card-content .star-btn:hover i, .flower-card-content .star-btn:focus i {
+        color: #fff; }
+    .flower-card-content .star-btn i {
+      color: #D2D7D8; }
+  .flower-card-content .flower-card-title {
+    margin-top: 176px; }
+    .flower-card-content .flower-card-title h5 {
+      font-size: 20px;
+      line-height: 0.75; }
+  .flower-card-content .flower-card-subtitle {
+    opacity: 0.7;
+    font-size: 12px;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center; }
+  .flower-card-content .flower-card-sightings {
+    margin-top: 20px; }
+  .flower-card-content .sightings-btn {
+    width: 103px !important;
+    height: 30px !important;
+    border-radius: 20px !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.05) !important;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1; }
+    .flower-card-content .sightings-btn:focus, .flower-card-content .sightings-btn:active, .flower-card-content .sightings-btn:hover {
+      background-color: #EAA79E !important; }
 
 nav {
   height: 80px; }
