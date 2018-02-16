@@ -6777,6 +6777,13 @@ h1 {
       text-align: left;
       color: #df9186; }
 
+.gray-gradient-bg {
+  background: linear-gradient(#F5F5F5, #fff) !important; }
+
+.main-input-standalone {
+  padding-top: 50px;
+  margin-bottom: 50px; }
+
 .flower-card-wrapper {
   margin-bottom: 20px; }
 
